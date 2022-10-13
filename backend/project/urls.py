@@ -21,6 +21,6 @@ from .routers import router
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("api/", include(router.urls)),
+    path("api/", include((router.urls, "tweet"), namespace="tweet")),
     path("", TemplateView.as_view(template_name="index.html")),
 ]
