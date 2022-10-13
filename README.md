@@ -3,7 +3,7 @@
 
 
 ## Description
-An  an application that allows the users to tweet out messages buitt with  **Django(DRF) - Python** and **VueJs - Javascript** a
+An  an application that allows the users to tweet out messages buitt with  **Django(DRF) - Python** and **VueJs - Javascript**
 
 - Key Application features
     - Send tweet with name and message
