@@ -14,4 +14,4 @@ class TweetView(
     serializer_class = Tweeterializer
 
     def get_queryset(self):
-        return self.queryset.order_by("created_at", "name")
+        return self.queryset.order_by("-created_at", "name")
